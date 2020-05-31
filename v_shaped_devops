@@ -1,0 +1,13 @@
+in this file we are going to discuss some of the models to implement and code on small projects.
+
+but before that we will learn some prerequisites or rather some pre stages of working on the small projects:
+ 1) V-shaped model:
+ . requirements
+ .system design
+ .architecture design
+ .module design
+ .implementation/coding
+ .unit testing
+ .integration testing
+ .system testing
+ .acceptance testing
