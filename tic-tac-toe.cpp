@@ -203,6 +203,7 @@ void playTicTacToe(int whoseTurn)
 // Driver program 
 int main() 
 { 
+  cout<<"Good morning gamers.";
     // Let us play the game with COMPUTER starting first 
     playTicTacToe(COMPUTER); 
       
