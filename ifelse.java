@@ -1,9 +1,10 @@
-import java.util.Scanner;
+import java.util.Scanner; // This is to take input from the user
+
 public class Main
 {
 public static void main(String[] args)
 {
-Scanner input = new Scanner(System.in);
+Scanner input = new Scanner(System.in);// Declare the input object
 int data = input.nextInt();
 if(data > 0)
 {
