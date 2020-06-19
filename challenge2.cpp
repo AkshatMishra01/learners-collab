@@ -25,7 +25,7 @@ int main()
 {
     int a=20;
     
-basic obj1(3),obj2(3,4),obj3;
+basic obj1(a),obj2(3,4),obj3;
 obj1.display();
 obj2.display();
 obj3.display();
