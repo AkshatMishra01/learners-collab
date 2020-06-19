@@ -1,11 +1,15 @@
+#include<iostream>
+using namespace std;
 class database
 {
 private:
-int a,b,c;
+int a=4,b=5,c;
 public:
 database();
 {
 cout<<"This is a constructor";
+  c = a+b;
+  cout<<"sum="<<c;
 }
 };
 int main()
