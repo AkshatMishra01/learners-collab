@@ -5,7 +5,7 @@ class basic
 public:
 basic(int a)
 {
-cout<<"This is the first  copy constructor, a ="<<a<<endl;
+cout<<"This is the default constructor, a ="<<a<<endl;
 }
 basic(int x,int y)
 {
