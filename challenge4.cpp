@@ -3,7 +3,7 @@ using namespace std;
 class base
 {
 public:
-void function()
+ virtual void function()
 {
 cout<<"This is the first function";
 }
@@ -19,6 +19,7 @@ cout<<"This is the function of the derived class";
 int main()
 {
 derived obj;
-obj.function();
+base *ptr=&obj;
+ptr->function();
 return 0;
 }
