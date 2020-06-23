@@ -3,7 +3,7 @@ using namespace std;
 class base
 {
 public:
- virtual void function()
+ void function()
 {
 cout<<"This is the first function";
 }
