@@ -5,21 +5,21 @@ class specifier
     private:
     int data;
     public:
-    Acessprivate():data(9)
+    specifier():data(9)
     {
-        cout<<"This is the private access.";
+        cout<<"This is the private access."<<endl;
     }
-    friend int access(Acessprivate);
+    friend int access(specifier);
 };
-int access(Acessprivate obj)
+int access(specifier obj)
 {
     obj.data = 5; 
-    cout<<"This is the friend function "<<obj.data;
+    cout<<"This is the friend function "<<obj.data<<endl;
     return obj.data;
 }
 int main()
 {
     specifier a1;
-    cout<<"i am the friend function "<<access(a1);
+    cout<<"i am the friend function "<<access(a1)<<endl;
     return 0;
 }
